@@ -34,7 +34,7 @@ public class GerenciadorLogin {
             throw new IllegalArgumentException("Perfil desconhecido: " + tipoUsuario);
         }
 
-        painel.montar();
+        painel.renderizar();
         return painel;
     }
 }
