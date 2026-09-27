@@ -2,13 +2,12 @@ package siga;
 
 public class PainelSecretaria implements Painel {
     @Override
-    public void renderizar() {
-        System.out.println("Renderizando Painel da Secretaria: Emissão de Documentos e Matrículas.");
+    public void montar() {
+        System.out.println("Montando recursos da secretaria.");
     }
 
     @Override
-    public void montar() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'montar'");
+    public void renderizar() {
+        System.out.println("Renderizando Painel da Secretaria: emissão de documentos e matrículas.");
     }
 }
