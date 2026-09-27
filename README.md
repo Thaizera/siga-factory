@@ -41,7 +41,3 @@ classDiagram
 ## Demonstração do OCP
 
 O perfil `SECRETARIA` é criado por `PainelSecretaria` e `CriadorPainelSecretaria`, sem modificar `GerenciadorLogin` nem os criadores existentes.
-
-## Uso de IA e validação
-
-Foi usado um assistente de IA como apoio para revisar a estrutura e documentar a solução. A validação deve incluir compilação com `javac` e execução de `siga.Main`.
